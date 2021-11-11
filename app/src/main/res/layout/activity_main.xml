@@ -8,10 +8,10 @@
 
     <TextView
         android:id="@+id/textLT"
-        android:layout_width="150dp"
-        android:layout_height="30dp"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
         android:layout_marginTop="40dp"
-        android:text="Lebar/Tinggi:"
+        android:text="L/T:"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.076"
@@ -20,10 +20,10 @@
 
     <TextView
         android:id="@+id/textPAD"
-        android:layout_width="150dp"
-        android:layout_height="30dp"
+        android:layout_width="124dp"
+        android:layout_height="23dp"
         android:layout_marginTop="52dp"
-        android:text="Panjang/Alas/Diameter:"
+        android:text="Pjg/Alas/Diameter:"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.076"
@@ -32,28 +32,28 @@
 
     <EditText
         android:id="@+id/editTextPAD"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="174dp"
+        android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="28dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toEndOf="@+id/textPAD"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextLT"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_width="173dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="28dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toEndOf="@+id/textLT"
         app:layout_constraintTop_toBottomOf="@+id/textPAD" />
 
@@ -71,8 +71,8 @@
 
     <TextView
         android:id="@+id/textViewhasilKeliling"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:layout_height="28dp"
         android:layout_marginTop="12dp"
         android:text="0"
         android:textColor="@color/black"
@@ -96,21 +96,21 @@
 
     <TextView
         android:id="@+id/textViewhasilLuas"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_width="164dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="80dp"
         android:text="0"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintHorizontal_bias="0.425"
         app:layout_constraintStart_toEndOf="@+id/TextView"
         app:layout_constraintTop_toBottomOf="@+id/buttonPersegi" />
 
     <Button
         android:id="@+id/buttonPersegi"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:layout_marginTop="84dp"
         android:background="@drawable/persegi"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,8 +120,8 @@
 
     <Button
         android:id="@+id/buttonsegitiga"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:layout_marginTop="84dp"
         android:background="@drawable/segitiga"
         app:layout_constraintEnd_toEndOf="parent"
@@ -131,8 +131,8 @@
 
     <Button
         android:id="@+id/buttonlingkaran"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:layout_marginTop="84dp"
         android:background="@drawable/lingkaran"
         app:layout_constraintEnd_toEndOf="parent"
